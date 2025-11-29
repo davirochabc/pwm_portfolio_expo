@@ -1,5 +1,5 @@
 import React from 'react';
-import { View } from 'react-native'; // Importamos View para o container
+import { View } from 'react-native'; 
 import { Tabs } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useTheme } from '../../context/ThemeContext'; 
@@ -11,16 +11,16 @@ export default function TabLayout() {
     <View style={{ flex: 1, backgroundColor: colors.background }}>
       <Tabs
         screenOptions={{
-          // Cores globais da navegação
+          
           headerStyle: { 
             backgroundColor: theme === 'dark' ? colors.card : colors.primary 
           },
-          headerTintColor: '#fff', // Texto do header sempre branco
+          headerTintColor: '#fff', 
           tabBarStyle: { 
             backgroundColor: colors.card,
             borderTopColor: colors.border,
-            height: 85, // Aumentado para levantar a barra
-            paddingBottom: 12, // Ajuste para não colar no fundo da tela
+            height: 85, 
+            paddingBottom: 12, 
             paddingTop: 8,
           },
           tabBarActiveTintColor: colors.primary,

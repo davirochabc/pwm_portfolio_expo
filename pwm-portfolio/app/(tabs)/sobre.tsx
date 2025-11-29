@@ -36,7 +36,7 @@ export default function AboutScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1 }, // Fundo removido
+  container: { flex: 1 }, 
   content: { padding: 20 },
   imageContainer: { alignItems: 'center', marginBottom: 20, marginTop: 10 },
   profileImage: {

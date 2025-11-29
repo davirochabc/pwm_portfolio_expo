@@ -1,4 +1,3 @@
-// Aqui ficam apenas as cores puras (Dados)
 
 export const lightColors = {
   background: '#ffffff',

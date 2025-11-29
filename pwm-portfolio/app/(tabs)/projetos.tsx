@@ -32,15 +32,14 @@ export default function ProjectsScreen() {
   const renderItem = ({ item }: { item: Project }) => (
     <TouchableOpacity 
       style={[styles.card, { backgroundColor: colors.card }]}
-      onPress={() => handlePress(item.link)} // Ação ao clicar
-      activeOpacity={0.7} // Feedback visual do toque
+      onPress={() => handlePress(item.link)} 
+      activeOpacity={0.7} 
     >
       <View style={styles.cardHeader}>
         <View style={styles.headerLeft}>
           <Ionicons name="logo-github" size={24} color={colors.primary} />
           <Text style={[styles.cardTitle, { color: colors.text }]}>{item.title}</Text>
         </View>
-        {/* Ícone indicando link externo se houver link */}
         {item.link && (
           <Ionicons name="open-outline" size={20} color={colors.icon} />
         )}
