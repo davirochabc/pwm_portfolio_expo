@@ -5,7 +5,7 @@ export const PROFILE = {
   description: "Treinando a nerdice, desenvolvendo aplicações com diversas tecnologias.",
   github: "https://github.com/davirochabc",
   linkedin: "https://linkedin.com/in/davirochabc", 
-  avatar: require('../assets/images/meu_avatar.png'),
+  avatar: require('../assets/images/avatar.png'),
 };
 
 export const ABOUT = {

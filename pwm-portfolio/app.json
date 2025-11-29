@@ -4,7 +4,7 @@
     "slug": "pwm-portfolio",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/meu_avatar.png",
+    "icon": "./assets/images/avatar.png",
     "scheme": "pwmportfolio",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff",
-        "foregroundImage": "./assets/images/meu_avatar.png"
+        "foregroundImage": "./assets/images/avatar.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
@@ -22,14 +22,14 @@
     },
     "web": {
       "output": "static",
-      "favicon": "./assets/images/meu_avatar.png"
+      "favicon": "./assets/images/avatar.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/meu_avatar.png",
+          "image": "./assets/images/avatar.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
