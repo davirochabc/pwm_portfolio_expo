@@ -1,4 +1,3 @@
-import { Ionicons } from "@expo/vector-icons";
 
 export const PROFILE = {
   name: "Davi Rocha",
@@ -6,7 +5,7 @@ export const PROFILE = {
   description: "Treinando a nerdice, desenvolvendo aplicações com diversas tecnologias.",
   github: "https://github.com/davirochabc",
   linkedin: "https://linkedin.com/in/davirochabc", 
-  avatar: require('../assets/images/meu-avatar.png'),
+  avatar: require('../assets/images/meu_avatar.png'),
 };
 
 export const ABOUT = {
